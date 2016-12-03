@@ -59,12 +59,13 @@ img.inset{
 <body class="inset">
 <table style="width:100%">
 <tr>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6" >  HOME </a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/AboutUs.jsp" >  ABOUT US </a> </th>
-<th> <a style= " color:white;" href = "http://localhost:8080/cst6/AboutUs.jsp" > OUR PETS </a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/Partners.jsp" >  PET PARTNERS </a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/PetPicker.jsp" >  Pick A Pet</a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/AboutUs.jsp" >  DONATIONS </a> </th>
+<th> <a style= "color:white;" href = "index.jsp" >  HOME </a> </th>
+<th> <a style= "color:white;" href = "AboutUs.jsp" >  ABOUT US </a> </th>
+<th> <a style= " color:white;" href = "#" > OUR PETS </a> </th>
+<th> <a style= "color:white;" href = "OurPartners.jsp" >  PET PARTNERS </a> </th>
+<th> <a style= "color:white;" href = "PetPicker.jsp" >  Pick A Pet</a> </th>
+<th> <a style= "color:white;" href = "FAQ.jsp" >  FAQ</a> </th>
+<th> <a style= "color:white;" href = "#" >  DONATIONS </a> </th>
 </tr></table>
 <h1 class="inset"> Pick Your Pet</h1>
 <br>

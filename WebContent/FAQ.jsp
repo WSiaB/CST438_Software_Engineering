@@ -52,12 +52,13 @@ img.inset{
 <h1 class="inset">Ten Rules To Picking The Right Pet</h1>
 <table style="width:100%">
 <tr>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6" >  HOME </a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/AboutUs.jsp" >  ABOUT US </a> </th>
-<th> <a style= " color:white;" href = "http://localhost:8080/cst6/aboutUs.jsp" > OUR PETS </a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/Partners.jsp" >  PET PARTNERS </a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/PickRightPet.jsp" >  HOW TO PICK THE RIGHT PET</a> </th>
-<th> <a style= "color:white;" href = "http://localhost:8080/cst6/aboutUs.jsp" >  DONATIONS </a> </th>
+<th> <a style= "color:white;" href = "index.jsp" >  HOME </a> </th>
+<th> <a style= "color:white;" href = "AboutUs.jsp" >  ABOUT US </a> </th>
+<th> <a style= " color:white;" href = "#" > OUR PETS </a> </th>
+<th> <a style= "color:white;" href = "OurPartners.jsp" >  PET PARTNERS </a> </th>
+<th> <a style= "color:white;" href = "PetPicker.jsp" >  Pick A Pet</a> </th>
+<th> <a style= "color:white;" href = "FAQ.jsp" >  FAQ</a> </th>
+<th> <a style= "color:white;" href = "#" >  DONATIONS </a> </th>
 </tr></table>
 <h2 style= "color:white;"> Here are ten simple rules to picking the right pet for you!</h2>
 
