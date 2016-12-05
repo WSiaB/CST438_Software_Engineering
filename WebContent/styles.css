@@ -1,0 +1,108 @@
+
+body {
+    background-color: #c2e5fd;
+	background-image: url("images/snowybg.gif");
+    background-repeat: repeat;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+
+#top {
+	border: 0px;
+	text-align: center;
+	width: 820px;
+}
+
+#layout {
+	width: 820px;
+	background-color: #ffffff;
+	border-top: 0px;
+	padding: 5px;
+}
+
+#navigation {
+	background-image: url("images/navbg.png");
+	width: 100%;
+    text-align: left;
+    width: 820px;
+    height: 28px;
+}
+
+#footer {
+	background-image: url("images/navbg.png");
+	width: 100%;
+    text-align: center;
+    width: 820px;
+    height: 28px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.welcome {
+	background-color: #8a0713;
+}
+
+.welcome a {
+	color: #ffffff;
+	padding: 2px;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.welcome a:visited {
+	color: #ffffff;
+}
+
+.welcome a:hover {
+	color: #cc3f4c;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+a {
+	color: #ffffff;
+	padding: 2px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #cc3f4c;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+h1 {
+	font-family: verdana;
+	font-size: 18px;
+	color: #ebffff;
+}
+
+p {
+	font-family: verdana;
+	font-size: 14px;
+}
+
+b {
+	color: #ffe3e5;
+}
+
+li {
+	color: #d9f7f7;
+	margin-bottom: 5px;
+}

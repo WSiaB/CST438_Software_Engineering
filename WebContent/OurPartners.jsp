@@ -1,76 +1,48 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+	<title>Home for the Holidays</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<style>
-body {
-    background-color: lightblue;
-}
+<body>
 
-h1 {
-    color: red;
-    text-align: center;
-}
-h2{
-		color: white;
-    text-align: center;
-}
-body.inset {
-   Border-style: inset;
-	Border-color: #ffffff;
-	background-color: #ff0000;
-	
-}
-p {
-    font-family: verdana;
-    font-size: 20px;
-    color: white;
-    padding: 1cm 1cm 1cm 1cm;
-}
+<table id="navigation">
+	<tr><th> <a href = "index.jsp" >  HOME </a> </th>
+	<th> <a href = "AboutUs.jsp" >  ABOUT US </a> </th>
+	<th> <a href = "#" > OUR PETS </a> </th>
+	<th> <a href = "OurPartners.jsp" >  PET PARTNERS </a> </th>
+	<th> <a href = "PetPicker.jsp" >  Pick A Pet</a> </th>
+	<th> <a href = "FAQ.jsp" >  FAQ</a> </th>
+	<th> <a href = "#" >  DONATIONS </a> </th></tr>
+</table>
 
-h1.inset {
-	Border-style: inset;
-	Border-color: #ffffff;
-	background-color: white;
-}
-img.inset{
-	Border-style: inset;
-	Border-color: #ffffff;
-	background-color: white;
-	position: absolute;
-	}
-	tr {
-	Border-style: inset;
-	Border-color: #ffffff;
-	background-color: #ce1010;
-	}
-	</style>
-<body class="inset">
-<h1 class="inset"> HERE IS A LIST OF OUR PARTNERS</h1>
-<table style="width:100%">
-<tr>
-<th> <a style= "color:white;" href = "index.jsp" >  HOME </a> </th>
-<th> <a style= "color:white;" href = "AboutUs.jsp" >  ABOUT US </a> </th>
-<th> <a style= " color:white;" href = "#" > OUR PETS </a> </th>
-<th> <a style= "color:white;" href = "OurPartners.jsp" >  PET PARTNERS </a> </th>
-<th> <a style= "color:white;" href = "PetPicker.jsp" >  Pick A Pet</a> </th>
-<th> <a style= "color:white;" href = "FAQ.jsp" >  FAQ</a> </th>
-<th> <a style= "color:white;" href = "#" >  DONATIONS </a> </th>
-</tr></table>
-<a class="inset" style= "color:white;" href = "http://www.Petfiner.com" >   1) Petfiner.com </a>
-<br><br>
-<a class="inset" style= "color:white;" href = "http://www.AnimalCenter.org" >   2) AnimalCenter.org </a>
-<br><br>
-<a class="inset" style= "color:white;" href = "http://www.AdoptaPet.org" >   3) AdoptaPet.org </a>
-<br><br>
-<a class="inset" style= "color:white;" href = "http://www.AllPaws.com" >  4)  AllPaws.com</a>
-<br><br>
-<a class="inset" style= "color:white;" href = "http://www.Petango.com" >  5) Petango.com</a>
-<br><br>
-<img src="http://localhost:8080/cst6/images/adopt.gif" align= "right">
+<div id="top">
+	<img src="images/xmaspuppers.png">
+</div>
+
+<table id="layout">
+	<tr><td class="welcome">
+		<h1>Here is a List of Our Wonderful Partners!</h1>
+		<p>
+		&nbsp;&nbsp;1) <a href = "http://www.petfinder.com" >Petfinder.com </a>
+		<br><br>
+		&nbsp;&nbsp;2) <a href = "http://www.AnimalCenter.org" >AnimalCenter.org </a>
+		<br><br>
+		&nbsp;&nbsp;3) <a href = "http://www.AdoptaPet.org" >AdoptaPet.org </a>
+		<br><br>
+		&nbsp;&nbsp;4)  <a href = "http://www.AllPaws.com" >AllPaws.com</a>
+		<br><br>
+		&nbsp;&nbsp;5) <a href = "http://www.Petango.com" >Petango.com</a>
+		</p>
+	</td></tr>
+</table>
+
+<table id="footer">
+	<tr><td><p>&copy; 2016 CST 438 Team 6</td></tr>
+</table>
+
 </body>
 </html>
+
