@@ -54,7 +54,7 @@ What types of pets should I consider?</li>
 <p> <img src="images/lion.gif" align= "left" width="400px"/>
 Exotic pets such as Monkeys, Sugar gliders, Possums and Hedgehogs really do not make good pets for average people. There are occasional people and families who swear by them as pets and I treat these animals frequently. But I do not recommend them. Some of us enjoy creating our own private zoos and keep these animals in superb conditions. But most of us would find them messy and demanding with needs that are rarely met in captivity. Although some become very tame most are rarely affectionate.
 <br>
-Fish have qualities in common with plants. They are both beautiful to look at and add an air of comfort to any home. As with plants, some of us have a Äúgreen thumbÄù with fish as with plants. They need regular, methodical continuous care in order to thrive. It is hard to develop a one-on-one relationship with a fish but they will come and become ÄúhappilyÄ agitated when you feed them.
+Fish have qualities in common with plants. They are both beautiful to look at and add an air of comfort to any home. As with plants, some of us have a green thumb with fish as with plants. They need regular, methodical continuous care in order to thrive. It is hard to develop a one-on-one relationship with a fish but they will come and become happily agitated when you feed them.
  <br>Farm Animals can make very good pets. Often zoning codes do not allow them in residential neighborhoods. Unlike exotic animals, farm animals are domesticated and affectionate and food sources are readily available at the feed store. Some require more space that the average tract home supplies.
 </p>
 
