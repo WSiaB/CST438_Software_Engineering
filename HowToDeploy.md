@@ -17,5 +17,5 @@ Uploading the project
 - Allow the 'Unknown Fingerprint' dialog that pops up, if any
 - Navigate to stack -> apache-tomcat -> webapps (this will be where you upload your .war file)
 - Drag and drop the exported .war file (XmasKittens.war) overwriting the one on the server
-- Now refresh xmaskittens.bitnami/XmasKittens and see the changes!
+- Now refresh http://xmaskittens.bitnamiapp.com/XmasKittens/ and see the changes!
 
