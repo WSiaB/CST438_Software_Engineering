@@ -24,17 +24,18 @@
 
 <table id="layout">
 	<tr><td class="welcome">
+		<form action="PetResults.jsp" method="POST">
 		<h1 class="inset"> Pick Your Pet</h1>
 		<br>
 		<p> Please select your zip code: </p>
-		<select>
+		<select name="zip">
 		  <option value="*">Any</option>
 		  <option value="92620">92620</option>
 		  <option value="94509">94509</option>
 		  </select>
 		  <br>
 		 <p> Please select the type of pet you were looking for: </p>
-		  <select>
+		  <select name="species" >
 		  <option value="*">Any</option>
 		  <option value="Dog">Dog</option>
 		  <option value="Cat">Cat</option>
@@ -42,7 +43,7 @@
 		</select>
 		<br>
 		<p> Please select the age you desire: </p>
-		  <select>
+		  <select name="age">
 		  <option value="*">Any</option>
 		  <option value="baby">baby</option>
 		  <option value="young">young</option>
@@ -51,11 +52,16 @@
 		</select>
 		<br>
 		<p>Please select the gender of your pet:</p>
-		  <select>
+		  <select name="gender">
 		  <option value="*">Any</option>
 		  <option value="M">Male</option>
 		  <option value="F">Female</option>
 		</select>
+		
+		<br><br>
+		
+		<input type="submit" value="Submit">
+		</form>
 	</td></tr>
 </table>
 
