@@ -1,12 +1,29 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    
+
+<%@ page import="java.sql.*" %>
+
 <html>
 <head>
 	<title>Home for the Holidays</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+
+<%
+	System.out.println("Testing connection");
+			
+	Connection conn = null;
+	try {
+		Class.forName("com.mysql.jdbc.Driver");
+		conn = (Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/pets","root","palmtop-Taiga12");
+		if (conn!=null) {
+			System.out.println("connected to database");
+		}
+	} catch(Exception e) {
+		System.out.println("not connected to database");
+	}
+%>
 
 <table id="navigation">
 	<tr><th> <a href = "index.jsp" >  HOME </a> </th>
